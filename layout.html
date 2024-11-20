@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supercell - Comunidad</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        .circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            background-color: #f5f5f5;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: bold;
+            margin: 0 auto;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <img class="navbar-brand" src="supercell.png" width="auto" height="90px">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="#">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Sobre Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Nuestros Juegos</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">Ayuda</a></li>
+                    </ul>
+                    <a href="#" class="btn btn-dark ms-3">Iniciar Sesión</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="carousel bg-light text-center">
+        <div class="container">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="banners/banner_stars.jpg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="banners/banner_clans.jpg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="banners/banner_royale.jpg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center py-5">
+        <div class="container">
+            <h2>ÚNETE A NUESTRA COMUNIDAD</h2>
+            <p class="text-muted">Disfruta de experiencias rápidas, sencillas y emocionantes con nosotros.</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <div class="circle mx-auto mb-3">01</div>
+                    <h5>Empieza Tu Viaje</h5>
+                    <p class="text-muted">Sumérgete en nuestro mundo y comienza tu aventura hoy mismo.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="circle mx-auto mb-3">02</div>
+                    <h5>Construye Tu Estrategia</h5>
+                    <p class="text-muted">Descubre cómo lograr el éxito dominando el arte de la planificación.</p>
+                </div>
+                <div class="col-md-4">
+                    <div class="circle mx-auto mb-3">03</div>
+                    <h5>Juega con Amigos</h5>
+                    <p class="text-muted">Forma equipo con otros jugadores y disfruta la emoción de colaborar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="text-center py-5 bg-light">
+        <div class="container">
+            <h2>¿POR QUÉ ELEGIRNOS?</h2>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <i class="fas fa-thumbs-up fa-3x text-primary mb-3"></i>
+                    <h5>Jugabilidad Emocionante</h5>
+                    <p class="text-muted">Sumérgete en juegos divertidos y llenos de acción.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-chart-line fa-3x text-primary mb-3"></i>
+                    <h5>Crecimiento Continuo</h5>
+                    <p class="text-muted">Desbloquea logros y mejora tus habilidades mientras juegas.</p>
+                </div>
+                <div class="col-md-4">
+                    <i class="fas fa-dollar-sign fa-3x text-primary mb-3"></i>
+                    <h5>Comienza Gratis</h5>
+                    <p class="text-muted">Disfruta de juegos de alta calidad sin ningún costo inicial.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center py-4">
+        <div class="container">
+            <a href="https://twitter.com/supercell" class="text-dark mx-2"><i class="fab fa-twitter fa-lg"></i></a>
+            <a href="https://facebook.com/supercell" class="text-dark mx-2"><i class="fab fa-facebook fa-lg"></i></a>
+            <a href="https://instagram.com/supercell" class="text-dark mx-2"><i class="fab fa-instagram fa-lg"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
